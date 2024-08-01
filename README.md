@@ -1,5 +1,7 @@
-# Pubky 4U: Soevereing "For You" feeds (Research phase👨‍🔬)
+# 🌐 Pubky 4U - Sovereign "For You" feeds.
 Sovereign recommendation engine. Dynamical curation of personalized feeds leveraging Web-of-Trust based algorithms, and global ML collaborative and content based filtering. This system ensures relevant, authentic interactions within the community, optimizing the discovery experience for each user.
+
+# 👨‍🔬 Warning: research ongoing!💥
 
 ## Features 🚀
 Envisioned for integration with Pubky's indexing systems like `pubky-nexus`, **pubky-4u** is a research project on cutting-edge recommendation engine that leverages both a Web of Trust (WoT) and lightweight Artificial Intelligence (AI) to deliver transparent and tailored content recommendations. Users can dynamically tune their feeds between purely WoT-driven content to AI-powered suggestions via an intuitive slider interface.
