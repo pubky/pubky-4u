@@ -37,3 +37,7 @@ Inspiration can be drawn from platforms like Reddit, which has "recency" and "po
 Ultimately, Pubky's architecture is unique in its capabilities to provide top-tier user experience that is familiar yet revolutionary, where the user truly "owns the identity," "owns the data," and "controls what they see" yet discoverability does not need to be damaged.
 
 ## Getting Started 🏁
+
+```
+Coming soon
+```
