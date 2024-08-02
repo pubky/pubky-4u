@@ -1,0 +1,7 @@
+neo4j==4.4.1
+pandas==2.2.2
+numpy==2.0.1
+scikit-learn==1.5.1
+lightfm==1.17
+matplotlib==3.4.3
+seaborn==0.13.2
