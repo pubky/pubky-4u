@@ -14,19 +14,20 @@ Envisioned for integration with Pubky's indexing systems like `pubky-nexus`, **p
 
 ### Example
 
-Get first 5th to 10th recommended posts for Ar
+Get the 5th to 10th recommended posts for Ar with "slider in the middle position" (50% WoT and 50% AI scoring). Run:
 
-```
+```bash
 python3 recommender.py --user_id pxnu33x7jtpx9ar1ytsi4yxbp6a5o36gwhffs8zoxmbuptici1jy --weight 50 --skip 5 limit 5
 ```
+#### Result
 
-| Post ID       | Final-Score | ML-Score | WoT-Score |
-| ------------- | ----------- | -------- | --------- |
-| 2ZDDYCKG90H00 | 0.467152    | 0.907989 | 0.026316  |
-| 2ZDN15FY672G0 | 0.466404    | 0.564387 | 0.368421  |
-| 2ZEEM0CKE3CG0 | 0.440762    | 0.618366 | 0.263158  |
-| 2Z1P68V42JJ00 | 0.397092    | 0.162604 | 0.631579  |
-| 2ZDH5QAWVHT00 | 0.340509    | 0.312596 | 0.368421  |
+| Feed Order | Post ID       | Final-Score | ML-Score | WoT-Score |
+| ----| ------------- | ----------- | -------- | --------- |
+| 5 | 2ZDDYCKG90H00 | 0.467152    | 0.907989 | 0.026316  |
+| 6 | 2ZDN15FY672G0 | 0.466404    | 0.564387 | 0.368421  |
+| 7 | 2ZEEM0CKE3CG0 | 0.440762    | 0.618366 | 0.263158  |
+| 8 | 2Z1P68V42JJ00 | 0.397092    | 0.162604 | 0.631579  |
+| 9 | 2ZDH5QAWVHT00 | 0.340509    | 0.312596 | 0.368421  |
 
 ## Roadmap for Hackweek 🛣️
 
