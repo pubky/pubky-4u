@@ -1,6 +1,6 @@
 // Network propagation trust score + Post interaction
 // TODO: Refactor
-MATCH path = shortestPath((viewer:User {id: "y4euc58gnmxun9wo87gwmanu6kztt9pgw1zz1yp1azp7trrsjamy"})-[:FOLLOWS*1..3]->(friendOfFriend:User))
+MATCH path = shortestPath((viewer:User {id: "{user_id}"})-[:FOLLOWS*1..3]->(friendOfFriend:User))
 MATCH (friendOfFriend)-[:AUTHORED]->(post:Post)
 WHERE NOT (viewer)-[:AUTHORED]->(post)
 WITH DISTINCT post, friendOfFriend, length(path) as pathLength

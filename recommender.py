@@ -26,7 +26,7 @@ def fetch_web_of_trust_scores(user_id):
     with open(f"{query_dir}/wot_A.cypher", "r") as file:
         query = file.read()
     query = query.replace("{user_id}", user_id)
-
+    
     with driver.session() as session:
         result = session.run(query)
         data = [{"post_id": record["post_id"], "WoT-Score": record["combined"]} for record in result]
